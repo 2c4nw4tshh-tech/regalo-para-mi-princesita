@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi princesita 🧡</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main id="app">
+
+        <!-- PANTALLA 1: REGALO -->
+        <section id="gift-screen" class="screen active">
+
+            <div class="gift-wrapper" id="gift">
+                <div class="gift-lid">
+                    <div class="ribbon"></div>
+                </div>
+
+                <div class="gift-box">
+                    <div class="ribbon"></div>
+                    <div class="ribbon-horizontal"></div>
+                </div>
+
+                <div class="gift-bow">
+                    <div class="bow-left"></div>
+                    <div class="bow-right"></div>
+                    <div class="bow-center"></div>
+                </div>
+            </div>
+
+            <button id="open-gift" class="main-button">
+                Abrir a cambio de un beso a tu novio
+            </button>
+
+        </section>
+
+
+        <!-- PANTALLA 2: DOS SOBRES -->
+        <section id="envelopes-screen" class="screen">
+
+            <div class="envelopes-container">
+
+                <div class="envelope envelope-left" id="envelope-left">
+                    <div class="envelope-body">
+                        <div class="envelope-flap">
+                            <span>♥</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="envelope envelope-right" id="envelope-right">
+                    <div class="envelope-body">
+                        <div class="envelope-flap">
+                            <span>♥</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <button id="open-first" class="main-button">
+                Abrir el primer sobre (pero a cambio de otro beso)
+            </button>
+
+        </section>
+
+
+        <!-- PANTALLA 3: CHEQUE -->
+        <section id="check-screen" class="screen">
+
+            <div class="check">
+
+                <div class="check-decoration top">♥ ♥ ♥ ♥ ♥</div>
+
+                <div class="check-title">
+                    CHEQUE DEL AMOR
+                </div>
+
+                <div class="check-content">
+                    Canjeable por
+                </div>
+
+                <div class="check-main-text">
+                    besos, abrazos,<br>
+                    y algo más…
+                </div>
+
+                <div class="check-decoration bottom">♥ ♥ ♥ ♥ ♥</div>
+
+            </div>
+
+            <button id="open-second" class="main-button">
+                Abrir el otro sobre
+            </button>
+
+        </section>
+
+
+        <!-- PANTALLA 4: SEGUNDO SOBRE -->
+        <section id="letter-screen" class="screen">
+
+            <div class="single-envelope" id="single-envelope">
+
+                <div class="envelope-body">
+                    <div class="envelope-flap">
+                        <span>♥</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="letter" id="letter">
+
+                <div class="letter-content">
+                    <p id="letter-text"></p>
+
+                    <p id="postscript" class="postscript">
+                        P.D.: Ahora escríbeme un mensaje como si te hubiese gustado anda… que me ha costado hacerlo. 🧡
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
